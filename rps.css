@@ -1,0 +1,78 @@
+body {
+    background: #ffffff; /* Use a light, neutral background color */
+    font-family: 'Roboto', sans-serif; /* Modern font choice */
+}
+
+#scores {
+    font-size: 25px;
+    background: #333; /* Dark background for the score section */
+    color: #fff; /* White text color */
+    border: 2px solid #fff; /* White border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#button-container {
+    background:#333; /* Dark background for the button container */
+    border: 4px inset #fff; /* Inset border for depth */
+    padding: 60px;
+    text-align: center;
+}
+
+.buttons {
+    margin: 1.25rem;
+    height: 5rem;
+    width: 11rem;
+    margin-top: 2rem; /* Adjusted for better alignment */
+    font-size: 1.5rem;
+    border-radius: 1rem; /* Slightly rounded corners */
+    background: #007bff; /* Modern button color */
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+.buttons:hover {
+    background: #0056b3; /* Slightly darker on hover */
+}
+
+#roundResults {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#rps-header {
+    padding: 0%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+#computerTotal {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#playerTotal {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#finalTotal {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #000;
+    font-weight: bold;
+}
